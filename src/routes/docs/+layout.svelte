@@ -23,6 +23,8 @@
 				{ href: '/docs/components/input', label: 'Input' },
 				{ href: '/docs/components/card', label: 'Card' },
 				{ href: '/docs/components/modal', label: 'Modal' },
+				{ href: '/docs/components/toast', label: 'Toast' },
+				{ href: '/docs/components/navbar', label: 'Navbar' },
 				{ href: '/docs/components/toggle', label: 'Toggle' },
 				{ href: '/docs/components/checkbox', label: 'Checkbox' },
 				{ href: '/docs/components/dropdown', label: 'Dropdown' },
