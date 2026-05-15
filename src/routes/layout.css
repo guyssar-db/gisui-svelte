@@ -1,0 +1,26 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+	/* Semantic Brand Colors */
+	--color-ui-primary: var(--color-indigo-600);
+	--color-ui-primary-hover: var(--color-indigo-700);
+	--color-ui-primary-ring: var(--color-indigo-500);
+	
+	--color-ui-secondary: var(--color-slate-100);
+	--color-ui-secondary-hover: var(--color-slate-200);
+	--color-ui-secondary-text: var(--color-slate-800);
+
+	--color-ui-danger: var(--color-rose-500);
+	--color-ui-danger-hover: var(--color-rose-600);
+	
+	--color-ui-success: var(--color-emerald-500);
+	--color-ui-success-hover: var(--color-emerald-600);
+
+	--radius-ui: 1.5rem;
+	--radius-ui-lg: 3rem;
+
+	--shadow-ui-xl: 0 20px 40px -15px rgba(0, 0, 0, 0.1);
+	--shadow-ui-2xl: 0 32px 80px -20px rgba(0, 0, 0, 0.2);
+}
